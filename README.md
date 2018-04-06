@@ -17,9 +17,13 @@ Select Youtube API from Developer Google Console & create credential for the pro
 
 Resource type: search; 
 method: list; 
-parameters:                values:
-  -part,                    -snippet
-  -q,                       -query
-  -type,                    -video
-  -nextPageToken,           -retreive the next page in the ResultSet
-  -prevPageToken            -retreive the next page in the ResultSet             
+parameters:  part,
+             q,
+             type,
+             nextPageToken,
+             prevPageToken     
+values:      snippet,
+             query, 
+             video
+             retreive the next page in the ResultSet
+             retreive the next page in the ResultSet             
